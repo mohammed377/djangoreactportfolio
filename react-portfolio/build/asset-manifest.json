@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.04a15847.css",
+    "main.js": "/static/js/main.18eb6925.js",
+    "static/media/j.jpg": "/static/media/j.4b757672429edc9c757e.jpg",
+    "static/media/img5.jpg": "/static/media/img5.f5b96e5219c0aa301a99.jpg",
+    "static/media/hloo.jpg": "/static/media/hloo.2fb798cefafccede0957.jpg",
+    "static/media/img1.jpg": "/static/media/img1.b663e669977f49ebdbd0.jpg",
+    "static/media/img4.jpg": "/static/media/img4.3c13aaa1bdfbe518fa74.jpg",
+    "static/media/Computer_networks_preview.jpg": "/static/media/Computer_networks_preview.9f3dba925fa2915f8909.jpg",
+    "static/media/img3.jpg": "/static/media/img3.6971a27f6114a0ca2b5e.jpg",
+    "static/media/full_stack_preview.jpg": "/static/media/full_stack_preview.3ea521c33bc774eac946.jpg",
+    "static/media/1mac_certificate.pdf": "/static/media/1mac_certificate.293fdc3a5f03c1990f87.pdf",
+    "static/media/img2.jpg": "/static/media/img2.d46382ef8af0c2a0a7bc.jpg",
+    "static/media/Computer_networks.pdf": "/static/media/Computer_networks.037d517e63c25ce9bd4f.pdf",
+    "static/media/data_analysis_preview.jpg": "/static/media/data_analysis_preview.94b2ad380e0217568642.jpg",
+    "static/media/data_analysis.pdf": "/static/media/data_analysis.d415def9002f5c093f76.pdf",
+    "static/media/ml.png": "/static/media/ml.2ad463d9ff4fc9464d6e.png",
+    "index.html": "/index.html",
+    "main.04a15847.css.map": "/static/css/main.04a15847.css.map",
+    "main.18eb6925.js.map": "/static/js/main.18eb6925.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04a15847.css",
+    "static/js/main.18eb6925.js"
+  ]
+}

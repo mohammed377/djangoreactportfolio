@@ -1,0 +1,185 @@
+/*Basic settings*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #2b2b2b;;
+    font-size: 1em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding:50px;
+    color:white;
+}
+
+/*side nav styling*/
+.side-nav{
+    display: flex;
+    flex-direction: column;
+    width:300px;
+    background-color: #2b2b2b;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    height:500px;
+}
+.profile-image {
+    max-width: 100%;
+    border: 2px solid #3282b8;
+    border-radius: 5px;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+.clink{
+    margin: 3px;
+    padding: 14px;
+    color: white !important;
+    display: block;
+    text-align: center;
+    font-size: larger;
+}
+.clink:hover {
+    background-color: #3282b8 !important;
+    color: white;
+}
+.active-link {
+  color: blue;  
+}
+
+.active-link:visited {
+  color: blue; 
+}
+.social-icons  {
+    display:flex;
+    justify-content: center;
+    gap:5px;
+    padding:10px;
+  }
+  .social-icons a{
+    color:white;
+    font-size:larger;
+    padding:5px;
+  }
+
+  .larger-icon {
+    font-size: 32px;
+  }
+  /*About section*/
+
+
+  .ab_image{
+    width:350px;
+  }
+  .aboutme_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+ 
+  .whoamiSec{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .whoami-list{
+    list-style-type: none;
+  }
+  b{
+    font-weight: bolder;
+    font-size: 20px;;
+    font-size: x-large;
+    color:rgb(39, 99, 189);
+  }
+  li{
+    font-size: larger;
+  }
+  .disc{
+    font-size:larger;
+    margin-top: 30px;
+  }
+
+/*projects*/
+
+.project-cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap:10px;
+  padding:10px;
+  align-items: end;
+}
+.project-card{
+  width:290px;
+  
+}
+.project-card img{
+  max-width: 100%;
+  display: block;
+}
+
+/*skills*/
+/* Skills.css */
+
+.skills-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skill {
+  margin: 30px 0;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-bar {
+  height: 10px;
+  background: #f0f0f0;
+  border-radius: 5px;
+}
+
+.skill-progress {
+  height: 100%;
+  background: #3d99fe;
+  border-radius: 5px;
+  transition: width 0.5s ease-in-out;
+}
+
+/*Achievments*/
+
+.achievements{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:10px;
+}
+.cert {
+  margin: 10px 0;
+}
+.cert a{
+  color:white;
+
+}
+.cert img {
+  width: 250px;  
+  display: block;
+}
+.cert h4 {
+  margin: 0 0 10px;
+  color:rgba(32, 144, 236, 0.623);
+  font-size:larger;
+}
+  @media screen and (max-width:700px) {
+    .container{
+      display: flex;
+      flex-direction: column;
+  }
+  }
